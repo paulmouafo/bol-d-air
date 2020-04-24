@@ -1,0 +1,25 @@
+.background{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/form-img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
+.contain{
+    margin-top: 20px;
+    left: 100px;
+}
+.item1{
+    margin-left: 50px;
+    
+}
+.item2{
+    margin-left: auto;
+}
+.block-title{
+    text-align: center;
+    color: black;
+    font-family: auto;
+    margin-top: 10px;
+}
