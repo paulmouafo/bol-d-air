@@ -12,6 +12,8 @@
 </head>
 <body>
 
+
+
 <!-- Navigation -->
 <nav class="navbar navbar-expand-md navbar-light  sticky-top" style="background-color: #0F8723;">
     <div class="container-fluid">
@@ -48,7 +50,7 @@
 	<div class="container " style="background-color: #2A4B15;  margin-top: 100px;">
 		<div class="raw welcome text-center">
 			<div class="col-12">
-				<h1 class="display-4">Je m'inscrit en tant que: </h1>
+				<h1 class="display-4">Je m'inscris en tant que: </h1>
 			</div>
 		</div>
 		<div class="row text-center padding">

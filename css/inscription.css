@@ -1,25 +1,32 @@
-.background{
-    width: 100%;
+body, html {
     height: 100%;
+}
+
+.background{
     background-image: url(../img/form-img1.jpg);
-    background-repeat: no-repeat;
     background-position: center ;
+    background-repeat: no-repeat;
     background-size: cover;
 }
-.contain{
-    margin-top: 20px;
-    left: 100px;
+
+.transbox{
+    border: 2px solid black ;
+    background-color: #ffffff;
+    opacity: 0.6;
 }
+
+.transbox1{
+    border: 2px solid black ;
+    background-color: #ffffff;
+}
+
 .item1{
-    margin-left: 50px;
-    
-}
-.item2{
-    margin-left: auto;
-}
-.block-title{
-    text-align: center;
     color: black;
-    font-family: auto;
+    font-weight: bold;
+}
+
+.submit-button {
+    color: black;
+    font-weight: bold;
     margin-top: 10px;
 }

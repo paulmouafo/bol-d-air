@@ -4,9 +4,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Competition du BOL D'AIR</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> <!-- css -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>  <!-- pour JQuery qui est necessaire pour le fonctionnement de boostrap (javascript) -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>    <!--javascript a besoin de JQuery pour marcher -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -32,7 +34,15 @@
 				<a class="nav-link" href="http://www.ckc-saintvicturnien.fr/IMG/pdf/plaquette-bol-air-2019-web.pdf">Dossier</a>
 			</li>
 			<li class="nav-item menu_inscrire">
-				<a class="nav-link" href="choixInscription.php">S'inscrire</a>
+				<div class="dropdown">
+                    <button class="btn dropdown-toggle  menu_inscrire" style="background-color: #0F8723;" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        S'inscrire
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="inscriptionBenevole.php">Bénévole</a>
+                      <a class="dropdown-item" href="inscriptionParticipantCapitain.php">Equipe </a>
+                    </div>
+                </div>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="#">Connecter</a>
@@ -47,7 +57,7 @@
 		<img src="img/background-accueil1.png" alt="background1">
 		<div class="carousel-caption">
 			<h1 class="display-2">BIENVENUE AU BOL D'AIR 2020</h1>
-			<h3> Challenger, s'eppanuir, exploiter ses competences et passer un bon moment </h3>
+			<h3> Challenger, s'épanouir, exploiter ses compétences et passer un bon moment </h3>
 			<a href="choixInscription.php"><button type="button" class="btn btn-outline-light btn-lg">Participer</button></a>
 			<button type="button" class="btn btn-primary btn-lg">Edition 2019</button>
 		</div>
@@ -73,15 +83,15 @@
 <div class="containner-fluid padding"  style = "background-color: #2A4B15; color: black;">
 	<div class="row text-center padding">
 		<div class="col-xs-12 col-sm-6 col-md-4">
-			<h3>Une course a pied</h3>
+			<h3>Une course à pied</h3>
 			<P></P>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4">
-			<h3>Une course a vélo</h3>
+			<h3>Une course à vélo</h3>
 			<P></P>
 		</div>
 		<div class="col-sm-12 col-md-4">
-			<h3>Une course a canoe</h3>
+			<h3>Une course à canoe</h3>
 			<P></P>
 		</div>
 	</div> 
@@ -92,8 +102,8 @@
 <div class="container-fluid padding">
 	<div class="row padding" style="border: 1px solid gray; background-color: #2A4B15;">
 		<div class="col-lg-6" style=" color: white;">
-			<h2>Course a pied</h2>
-			<p>Raid Canoê VTT course à pied..</p>
+			<h2>Course à pied</h2>
+			<p>Raid Canoë VTT course à pied..</p>
 			<p>	Cette épreuve sportive est ouverte à toute personne de + de 16 ans (+ de 14 ans pour le mini BOL D’AIR).
 				Ces deux épreuves se déroulent par équipe de deux
 			</p>
@@ -112,7 +122,7 @@
 			<img src="img/course-velo.jpg" class="img-fluid">
 		</div>
 		<div class="col-lg-6" style=" color: white;">
-			<h2>Course a velo</h2>
+			<h2>Course à vélo</h2>
 			<p>Raid Canoê VTT course à pied..</p>
 			<p>	Cette épreuve sportive est ouverte à toute personne de + de 16 ans (+ de 14 ans pour le mini BOL D’AIR).
 				Ces deux épreuves se déroulent par équipe de deux
@@ -126,8 +136,8 @@
 <div class="container-fluid padding">
 	<div class="row padding" style="border: 1px solid gray; background-color: #2A4B15;">
 		<div class="col-lg-6" style=" color: white;">
-			<h2>Course a canoe</h2>
-			<p>Raid Canoê VTT course à pied..</p>
+			<h2>Course à canoë</h2>
+			<p>Raid Canoë VTT course à pied..</p>
 			<p>	Cette épreuve sportive est ouverte à toute personne de + de 16 ans (+ de 14 ans pour le mini BOL D’AIR).
 				Ces deux épreuves se déroulent par équipe de deux
 			</p>
@@ -143,7 +153,7 @@
 <hr class="my-4">
 
 <!--- Connect -->
-<!-- <div class="container-fluid padding"  style = "background-color: #2A4B15;">
+<div class="container-fluid padding"  style = "background-color: #2A4B15;">
 	<div class="row text-center padding">
 		<div class="col-12">
 			<h2>Connect</h2>
@@ -157,7 +167,7 @@
 		</div>
 
 	</div>
-</div> -->
+</div> 
 
 <!--- Footer -->
 <footer style="background-color: #0F8723;">
